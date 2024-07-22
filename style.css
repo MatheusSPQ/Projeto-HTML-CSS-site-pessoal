@@ -1,0 +1,39 @@
+.gradient-background{
+    background: linear-gradient(300deg, #153448, #3C5B6F, #0f0f0e);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+
+#queiroz{
+    color: #DFD0B8;
+
+}
+#perfil{
+    border-radius: 50%;
+}
+
+#first{
+    text-align: justify;
+}
+
+#primeirocard{
+    background-image : url('./assets/web.gif ' );
+    background-size: 100%;
+    background-blend-mode: color-burn;
+}
+
+.icone:hover{
+    transform: scale(1.2);
+}
